@@ -1,0 +1,96 @@
+.our-services-content {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.safe-service {
+    background-color: white;
+    padding: 0 2.5rem 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
+}
+
+.safe-service h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.our-services-content__text .button {
+    margin-top: 2rem;
+}
+
+.content1 {
+    width: 70%;
+    margin-right: 4rem;
+}
+
+.our-services-content__text{
+    padding: 30px 0 0 100px;
+}
+.content2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.safe-service a {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #2970fa;
+}
+
+.safe-service p ,
+.text{
+    font-size: small;
+    opacity: 0.8;
+    color: rgb(68, 67, 67);
+}
+
+.our-services-content__card img {
+    margin: 0 0 2rem 2rem;
+}
+.our-services-content__card{
+    width: 18rem;
+}
+
+.service-cards{
+    display: flex;
+    justify-content: space-between;
+}
+/*cards*/
+.firscards{
+    padding: 140px 0 0 0;
+}
+.thirdcard{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 769px) {
+    .our-services-content {
+        flex-direction: column;
+    }
+    .service-cards{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0 1rem 0;
+
+    }
+    .content1,
+    .content2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .our-services-content__text{
+        padding: 0;
+    }
+    .firscards{
+        padding: 3rem 0 0 0;
+    }
+    .our-services-content__card{
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+}
